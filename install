@@ -14,4 +14,9 @@ php artisan serv
 // make login  ,Login and register menu view show
 php artisan make:auth
 
-http://localhost:8000/register
+//now can view but cant register http://localhost:8000/register
+
+//make user table for authen
+php artisan migrate
+//if error like below need update mysql to 5.7+
+//Illuminate\Database\QueryException  : SQLSTATE[42000]: Syntax error or access violation: 1071 Specified key was too long; max key length is 767 bytes (SQL: alter table `users` add unique `users_email_unique`(`email`))
