@@ -33,3 +33,9 @@ view-source:https://adminlte.io/themes/dev/AdminLTE/starter.html#
 //(admin-lte) referrent name from package.json
     
 //and goto /htdocs/chatapp/resources/sass/app.scss   add @import "~admin-lte/disc/admin/bootstrap"; after @import '~bootstrap/scss/bootstrap';
+
+
+
+
+//then  "npm run watch" will monitor css change and complite
+npm run watch
