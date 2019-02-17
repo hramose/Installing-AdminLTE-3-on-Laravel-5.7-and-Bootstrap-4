@@ -29,4 +29,6 @@ view-source:https://adminlte.io/themes/dev/AdminLTE/starter.html#
 
 // after try refresh u will see admin-lte template but not complete ,must to do next step
 
-//go to htdocs/chatapp/resources/js/bootstrap.js
+//go to htdocs/chatapp/resources/js/bootstrap.js  add require('admin-lte');  after require('bootstrap'); 
+//(admin-lte) referrent name from package.json
+    
