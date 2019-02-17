@@ -5,4 +5,7 @@ cd /myapp
 npm install  //install default module from package.json
 npm install admin-lte@v3.0.0-alpha.2 --save
 php artisan serv
-   
+//Goto .env then change connection database
+php artisan serv
+
+// Goto http://localhost:8000
