@@ -11,3 +11,7 @@ php artisan serv
 // Goto http://localhost:8000
 
 //view https://adminlte.io/themes/dev/AdminLTE/index2.html
+// make login  ,Login and register menu view show
+php artisan make:auth
+
+http://localhost:8000/register
