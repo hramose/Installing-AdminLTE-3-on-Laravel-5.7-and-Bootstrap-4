@@ -26,3 +26,7 @@ view-source:https://adminlte.io/themes/dev/AdminLTE/starter.html#
   // go to  /htdocs/chatapp/resources/views/home.blade.php
   
   change @extends('layouts.app')  to @extends('layouts.master')
+
+// after try refresh u will see admin-lte template but not complete ,must to do next step
+
+//go to htdocs/chatapp/resources/js/bootstrap.js
