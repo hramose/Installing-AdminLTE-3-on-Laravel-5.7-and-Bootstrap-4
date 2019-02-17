@@ -1,5 +1,5 @@
 $composer global require laravel/installer
 $composer create-project --prefer-dist laravel/laravel myapp
 
-$npm install //install module from package.json
+$npm install  //install default module from package.json
    
