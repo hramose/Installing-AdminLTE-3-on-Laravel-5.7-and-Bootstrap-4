@@ -32,3 +32,5 @@ view-source:https://adminlte.io/themes/dev/AdminLTE/starter.html#
 //go to htdocs/chatapp/resources/js/bootstrap.js  add require('admin-lte');  after require('bootstrap'); 
 //(admin-lte) referrent name from package.json
     
+//and goto /htdocs/chatapp/resources/sass/app.scss
+add @import '~admin-lte/scss/bootstrap'; after @import '~bootstrap/scss/bootstrap';
