@@ -9,3 +9,5 @@ php artisan serv
 php artisan serv
 
 // Goto http://localhost:8000
+
+//view https://adminlte.io/themes/AdminLTE/pages/examples/blank.html
