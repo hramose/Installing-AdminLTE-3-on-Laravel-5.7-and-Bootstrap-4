@@ -1,6 +1,6 @@
 //root document
 composer global require laravel/installer
-composer create-project --prefer-dist laravel/laravel myapp
+composer create-project --prefer-dist laravel/laravel chatapp
 cd /myapp
 npm install  //install default module from package.json
 npm install admin-lte@v3.0.0-alpha.2 --save
